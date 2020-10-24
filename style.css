@@ -1,17 +1,71 @@
-
 body{
     background-image: url("images/grass.png");
     background-repeat: repeat;
     background-size: 200px;
 }
 
-.jumbotron {
-    opacity: 75%;
-    background-color: #9dffb0;
+#title h1 {
+    color: white;
+    text-shadow: 3px 3px #F5C752;
+    margin: 15px;
+    font-family: 'Grandstander', cursive;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+
 }
 
 #container {
-    max-width:600px;
+    max-width: 500px;
+    height: auto;
+    background: #9e8364;
+    border: 20px solid #d8ccb6;
+    border-radius: 50px;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+}
+
+#container #who{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+#container h2 {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    margin: 5px;
+}
+
+#question {
+    font-weight: bold;
+}
+
+#container button {
+    color: white;
+    background-color: #F5C752;
+    padding: 5px;
+    margin: 5px;
+    border: white dotted 2px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+#container button:hover {
+    background-color: white;
+    color: #F5C752;
+}
+
+#container button:disabled {
+    background-color: darkgrey;
+    color: lightgray;
+}
+
+#end-game{
+    width: 500px;
+    max-width: 500px;
+    max-height: 500px;
     height: auto;
     background: #9e8364;
     border: 20px solid #d8ccb6;
@@ -20,22 +74,37 @@ body{
     text-align: center;
 }
 
-#question {
-    font-weight: bold;
-}
-#score {
-    margin-top: 20px;
-    font-weight: bold;
+#end-game h3 {
+    font-family: 'Londrina Outline', cursive;
+    color:white;
+    font-size: 100px;
+    margin: auto;
 }
 
-h1 {
+#end-game button {
+    color: white;
+    background-color: #F5C752;
+    padding: 5px;
+    border: white dotted 2px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    width: 300px;
+    margin: 25px;
+}
+
+#end-game button:hover {
+    background-color: white;
+    color: #F5C752;
+}
+
+#creds {
+    color: lightgray;
+    font-size: x-small;
+    margin: auto;
     text-align: center;
 }
-
-button {
-    background-color: cornflowerblue;
-}
-
 
 
 

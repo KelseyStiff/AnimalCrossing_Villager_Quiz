@@ -5,30 +5,36 @@
     <title>Animal Crossing Villager Guessing Game</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script async defer src="quiz.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,800;1,800&family=Nunito:wght@700&family=Londrina+Outline&family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/leaf.png">
 
 </head>
 <body>
-<div class="jumbotron ">
-    <h1>Animal Crossing <br> Villager Quiz</h1>
-</div>
+    <div id="title">
+        <h1>Animal Crossing <br> Villager Quiz</h1>
+    </div>
 
         <div id="container" class="">
-            <h1>Who is this?</h1>
+            <h2 id="who">Who is this?</h2>
             <canvas id="canvas" height="300" width="300"></canvas>
-            <br>
             <div id="answer_buttons">
             </div>
-            <h1 id="result"></h1>
-            <br>
+            <h2 id="result"></h2>
             <button id="next">NEXT</button>
-            <p id="counter"></p>
         </div>
 
-<h2 id="score"></h2>
+        <div id="end-game">
+            <h3 id="score"></h3>
+            <button id='try_again'></button>
+        </div>
+
+        <div id="creds">
+            <p>background image by: thenewhylton @<a href="https://www.deviantart.com/thenewhylton/art/Animal-Crossing-Grass-Remake-Spring-HD-439882381">devianart.com</a></p>
+            <p>icon image by:almainprogress @<a href="https://pixabay.com/images/id-5442035/">pixabay.com</a>
+            </p>
+        </div>
 
 </body>
 </html>
